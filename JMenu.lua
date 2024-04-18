@@ -269,8 +269,8 @@ end
 function RevivePlayer()
     TriggerEvent("hospital:client:Revive")
     StopScreenEffect('DeathFailOut')
-	        SetEntityMaxHealth(ped, 2000)
-        SetEntityHealth(ped, 2000)
+	SetEntityMaxHealth(ped, 100)
+        SetEntityHealth(ped, 100)
     notify("You have been revived.")
 end
 
